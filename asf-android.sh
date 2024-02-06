@@ -29,7 +29,7 @@ pkg install proot-distro -y
 proot-distro install ubuntu
 
 # Installing requirements for ArchiSteamFarm
-proot-distro login ubuntu -- bash -c 'apt update -y && apt upgrade -y && apt install libicu70 mono-runtime -y'
+proot-distro login ubuntu -- bash -c 'apt update -y && apt upgrade -y && apt install libicu72 mono-runtime -y'
 
 # Create a user noroot
 proot-distro login ubuntu -- bash -c 'useradd -m noroot'
